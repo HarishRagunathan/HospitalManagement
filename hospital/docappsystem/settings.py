@@ -84,13 +84,12 @@ WSGI_APPLICATION = 'docappsystem.wsgi.application'
 # }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'hms',
-        'USER': 'root',
-        'PASSWORD': '1234',
-        'HOST': 'localhost',
-        'PORT': '3306',
-        
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'hms_05v9',
+        'USER': 'hms_05v9_user',
+        'PASSWORD': 'Wu3x6JfpPPCxadM9k0PYllSQUaeIurZN',
+        'HOST': 'localhost',   
+        'PORT': '5432',        
     }
 }
 
